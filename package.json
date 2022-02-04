@@ -1,0 +1,24 @@
+{
+  "name": "tahaluf-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "publish": "node publish.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mouhammad-raddad/Tahaluf-Task.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mouhammad-raddad/Tahaluf-Task/issues"
+  },
+  "homepage": "https://github.com/mouhammad-raddad/Tahaluf-Task#readme",
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
