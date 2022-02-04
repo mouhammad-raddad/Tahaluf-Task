@@ -24,38 +24,39 @@ label img {
   flex-wrap: wrap;
   max-width: 700px;
   margin: 0px;
-  padding: 0px ;
+  padding: 0px;
   padding-left: 25px;
 }
 .mytabs input[type='radio'] {
   display: none;
 }
+
 .mytabs label {
   display: flex;
   align-items: center;
   gap: 1rem;
   border: 1px solid #5f5d5d;
-  padding:  2rem ;
+  padding: 2rem 15%;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .mytabs .tab {
   width: 100%;
-  padding: 20px;
+  padding: 3rem;
   background: #fff;
   order: 1;
   display: none;
 }
 .mytabs .tab h2 {
   font-size: 1.5em;
-  padding-left: .25em;
+  padding-left: 0.25em;
 }
 .mytabs .tab img {
-
-    display: block;
+  display: block;
   margin-left: auto;
   margin-right: auto;
-    width: 40%;
+  width: 40%;
 }
 
 .mytabs input[type='radio']:checked + label + .tab {
@@ -70,13 +71,14 @@ label img {
 .art-1 {
   margin: 0px 3.5rem;
 }
-section{
-	width: 100%;
+section {
+  width: 100%;
 }
-.sec-b{
-	display: inline;
+.sec-b {
+  display: inline;
 }
-input#inputHiddenContent3,#inputShownContent3 {
+input#inputHiddenContent3,
+#inputShownContent3 {
   display: none;
 }
 
@@ -93,32 +95,25 @@ input#inputHiddenContent3:checked ~ span#spanHiddenContent3 {
 }
 
 input#inputShownContent3:checked ~ #myReadMore p {
-    display: none;
+  display: none;
 }
-span label{
+span label {
   color: blue;
   float: right;
 }
 
 @media only screen and (max-width: 600px) {
-.mytabs .tab h2 {
-	  display: none;
-  }
-  .mytabs .tab p {
-	  display: none;
-  }
-    .mytabs .tab img {
-	  display: none;
-  }
-      .mytabs .tab {
-	  display: none;
-  }
-  .mytabs{
-	  display: flex;
-	  flex-direction: row;
+  .mytabs input[type='radio']:checked + label + .tab {
+    display: none;
   }
   .mytabs label {
-      font-size: 0;
+    font-size: 0;
+  }
+  .mytabs {
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    margin: 0px;
+    padding: 0px;
+  }
 }
-}
-
