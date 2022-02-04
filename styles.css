@@ -1,0 +1,124 @@
+html,
+body {
+  color: #4d4e53;
+  background-color: #ffffff;
+  font-family: 'Open Sans', Arial, sans-serif;
+  line-height: 1.5;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+header {
+  margin: 1.5rem;
+  margin-left: 2.5rem;
+}
+
+label img {
+  width: 2rem;
+}
+.mytabs {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 700px;
+  margin: 0px;
+  padding: 0px ;
+  padding-left: 25px;
+}
+.mytabs input[type='radio'] {
+  display: none;
+}
+.mytabs label {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border: 1px solid #5f5d5d;
+  padding:  2rem ;
+  font-weight: bold;
+}
+
+.mytabs .tab {
+  width: 100%;
+  padding: 20px;
+  background: #fff;
+  order: 1;
+  display: none;
+}
+.mytabs .tab h2 {
+  font-size: 1.5em;
+  padding-left: .25em;
+}
+.mytabs .tab img {
+
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 40%;
+}
+
+.mytabs input[type='radio']:checked + label + .tab {
+  display: block;
+  background-color: #9a9898;
+}
+
+.mytabs input[type='radio']:checked + label {
+  background: #9a9898;
+}
+
+.art-1 {
+  margin: 0px 3.5rem;
+}
+section{
+	width: 100%;
+}
+.sec-b{
+	display: inline;
+}
+input#inputHiddenContent3,#inputShownContent3 {
+  display: none;
+}
+
+span#spanHiddenContent3 {
+  display: none;
+}
+
+input#inputShownContent3:checked ~ span#spanHiddenContent3 {
+  display: block;
+}
+
+input#inputHiddenContent3:checked ~ span#spanHiddenContent3 {
+  display: none;
+}
+
+input#inputShownContent3:checked ~ #myReadMore p {
+    display: none;
+}
+span label{
+  color: blue;
+  float: right;
+}
+
+@media only screen and (max-width: 600px) {
+.mytabs .tab h2 {
+	  display: none;
+  }
+  .mytabs .tab p {
+	  display: none;
+  }
+    .mytabs .tab img {
+	  display: none;
+  }
+      .mytabs .tab {
+	  display: none;
+  }
+  .mytabs{
+	  display: flex;
+	  flex-direction: row;
+  }
+  .mytabs label {
+      font-size: 0;
+}
+}
+
