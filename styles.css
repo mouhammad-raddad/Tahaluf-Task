@@ -30,6 +30,7 @@ label img {
 .mytabs input[type='radio'] {
   display: none;
 }
+
 .mytabs label {
   display: flex;
   align-items: center;
@@ -37,11 +38,12 @@ label img {
   border: 1px solid #5f5d5d;
   padding:  2rem ;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .mytabs .tab {
   width: 100%;
-  padding: 20px;
+  padding: 3rem;
   background: #fff;
   order: 1;
   display: none;

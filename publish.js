@@ -3,7 +3,7 @@ const ghpages = require('gh-pages');
 ghpages.publish(
   '.',
   {
-    src: ['*.html', '*.css','*.png'],
+    src: ['*.html', '*.css', '*.png', '*.jpg','*.svg'],
   },
   (result) => {
     if (result) {
