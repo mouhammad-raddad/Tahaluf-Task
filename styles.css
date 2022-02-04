@@ -110,10 +110,16 @@ span label {
     font-size: 0;
   }
   .mytabs {
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     float: right;
     margin: 0px;
     padding: 0px;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  .sec-a {
+    max-width: 5%;
   }
 }
