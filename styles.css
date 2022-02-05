@@ -103,23 +103,23 @@ span label {
 }
 @media only screen and (max-width: 2652px) {
   .mytabs label {
-  width: 19.6%;
-}
+    width: 19.6%;
+  }
 }
 @media only screen and (max-width: 1040px) {
   .mytabs label {
-  width: 19.5%;
-}
+    width: 19.5%;
+  }
 }
 @media only screen and (max-width: 840px) {
   .mytabs label {
-  width: 19.4%;
-}
+    width: 19.4%;
+  }
 }
 @media only screen and (max-width: 705px) {
   .mytabs label {
-  width: 19.2%;
-}
+    width: 19.2%;
+  }
 }
 
 @media only screen and (max-width: 600px) {
